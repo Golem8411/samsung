@@ -1,7 +1,6 @@
 import styles from "../flufftxt/flufftxt.module.css";
 import CPU from "../../assets/img/sCPU.jpg";
 import Bat from "../../assets/img/sBat.jpg";
-import Scre from "../../assets/img/sSCre.jpg";
 
 const flufftxt = () => {
   return (
