@@ -1,7 +1,7 @@
 import styles from "../produto/produto.module.css";
 import Button from "../button/button";
 import GalaxyS25Plus from "../../assets/img/samsung-azul.png";
-import MasterCard from "../../assets/img/MasterCard.svg";
+import MasterCard from "../../assets/img/masterCard.svg";
 import EloPlus from "../../assets/img/cartaoElo.svg";
 
 const Produto = () => {

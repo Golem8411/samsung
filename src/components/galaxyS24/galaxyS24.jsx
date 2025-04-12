@@ -1,7 +1,7 @@
 import styles from "../galaxyS24/galaxyS24.module.css";
 import ButtonS24 from "../button/button";
 import GalaxyS24N from "../../assets/img/samsung-cinza.png";
-import Mastercard from "../../assets/img/Mastercard.svg";
+import Mastercard from "../../assets/img/mastercard.svg";
 import Elo24 from "../../assets/img/cartaoElo.svg";
 
 const GalaxyS24 = () => {

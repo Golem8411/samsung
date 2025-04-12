@@ -1,6 +1,6 @@
 import styles from "../galaxyZflip/galaxyZflip.module.css";
 import GalaxyZFlip from "../../assets/img/samsung-flip.png";
-import MasterFlip from "../../assets/img/Mastercard.svg";
+import MasterFlip from "../../assets/img/mastercard.svg";
 import EloFlip from "../../assets/img/cartaoElo.svg";
 import ButtonFlip from "../button/button";
 

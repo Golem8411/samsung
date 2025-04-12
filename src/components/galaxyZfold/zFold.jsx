@@ -1,6 +1,6 @@
 import styles from "../galaxyZfold/zFold.module.css";
 import GalaxyZFold from "../../assets/img/samsung-prata.png";
-import MasterZfold from "../../assets/img/Mastercard.svg";
+import MasterZfold from "../../assets/img/mastercard.svg";
 import EloZFold from "../../assets/img/cartaoElo.svg";
 import ButtonZFold from "../button/button";
 

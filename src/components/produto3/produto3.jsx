@@ -1,6 +1,6 @@
 import styles from "../produto3/produto3.module.css";
 import GalaxyS25 from "../../assets/img/samsung-branco.png";
-import MasterCard3 from "../../assets/img/Mastercard.svg";
+import MasterCard3 from "../../assets/img/mastercard.svg";
 import Elo from "../../assets/img/cartaoElo.svg";
 import Button3 from "../button/button";
 

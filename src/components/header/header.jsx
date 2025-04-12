@@ -2,8 +2,8 @@ import styles from "../header/header.module.css";
 import logoHeader from "../../assets/img/logo-samsung.jpeg";
 import Carrinho from "../../assets/img/carrinho.jpeg";
 import Pessoal from "../../assets/img/pessoal.jpeg";
-import Menu from "../../assets/img/Menu.jpeg";
-import MenuOpen from "../../assets/img/MenuOpen.jpeg";
+import Menu from "../../assets/img/menu.jpeg";
+import MenuOpen from "../../assets/img/menuOpen.jpeg";
 import Search from "../../assets/img/search.jpeg";
 import { useState } from "react";
 

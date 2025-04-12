@@ -1,6 +1,6 @@
 import styles from "../galaxyS24Ultra/galaxyS24Ultra.module.css";
 import GalaxyUltra from "../../assets/img/samsung-violeta.png";
-import MasterUltra from "../../assets/img/Mastercard.svg";
+import MasterUltra from "../../assets/img/mastercard.svg";
 import EloUltra from "../../assets/img/cartaoElo.svg";
 import ButtonUltra from "../button/button";
 
