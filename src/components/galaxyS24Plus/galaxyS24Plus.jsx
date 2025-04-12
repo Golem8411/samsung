@@ -1,6 +1,6 @@
 import styles from "../galaxyS24Plus/galaxyS24Plus.module.css";
 import GalaxyS24P from "../../assets/img/samsung-laranja.png";
-import MastercardP from "../../assets/img/mastercard.svg";
+// import MastercardP from "../../assets/img/mastercard.svg";
 import Elo24P from "../../assets/img/cartaoElo.svg";
 import ButtonGS24Plus from "../button/button";
 
@@ -50,11 +50,11 @@ const GalaxyS24Plus = () => {
           </div>
 
           <div className={styles.imgCartaoS24P}>
-            <img
+            {/* <img
               className={styles.S24P}
               src={MastercardP}
               alt="Cartão Master"
-            />
+            /> */}
             <img className={styles.Elo24P} src={Elo24P} alt="Elo card" />
           </div>
           <div className={styles.FinalP}>

@@ -1,6 +1,6 @@
 import styles from "../produto3/produto3.module.css";
 import GalaxyS25 from "../../assets/img/samsung-branco.png";
-import MasterCard3 from "../../assets/img/mastercard.svg";
+// import MasterCard3 from "../../assets/img/mastercard.svg";
 import Elo from "../../assets/img/cartaoElo.svg";
 import Button3 from "../button/button";
 
@@ -42,11 +42,11 @@ const Produto3 = () => {
           </div>
 
           <div className={styles.imgCartao3}>
-            <img
+            {/* <img
               className={styles.Master}
               src={MasterCard3}
               alt="Cartão Mastercard-3"
-            />
+            /> */}
             <img className={styles.Elo} src={Elo} alt="Cartão Elo" />
           </div>
 
