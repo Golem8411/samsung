@@ -1,0 +1,169 @@
+.GalaxyS24 {
+  padding: 0 12px 100px;
+  background-color: rgb(250, 250, 251);
+}
+
+.AnuncioS24 {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.WrapperGalaxy24 {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 84px;
+  gap: 32px;
+}
+
+.imgGalaxyS24 img {
+  width: 300px;
+  height: 314px;
+  position: relative;
+}
+
+.ContentS24 h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+
+.ContentS24 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Buybtn{
+  display: flex;
+  justify-content: center;
+}
+.PrecoG24 {
+  color: black;
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.PrecoG24 span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ContentS24 h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ContentS24 li {
+  list-style: disc;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 55ch;
+}
+
+.PrecoGalaxy24 {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 15px;
+}
+
+.PrecoGalaxy24 h4 {
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.PrecoGalaxy24 .ParcelaGS {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.FreteS24 {
+  color: black;
+}
+
+.FreteS24 span {
+  color: black;
+  font-weight: bold;
+}
+
+.FreteGS24 {
+  color: #006bea;
+  font-size: 13px;
+  font-weight: 700;
+  height: 100%;
+}
+
+.Estoque24 {
+  color: green;
+  font-weight: bolder;
+}
+
+.imgCartaoG24 {
+  max-width: 45px;
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+}
+
+.S24 {
+  padding-right: 15px;
+}
+
+.Elo24 {
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.Final {
+  font-weight: 600;
+  font-size: 12px;
+  color: black;
+}
+
+.PagaS24,
+.FinalNumber {
+  color: #bcbcbc;
+}
+
+.PagaS24 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Final .FinalNumber {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .WrapperGalaxy24 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContentS24 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .ContentS24 li {
+    max-width: 45ch;
+  }
+  .ContentS24 h2 {
+    max-width: 22ch;
+  }
+}

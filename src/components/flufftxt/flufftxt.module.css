@@ -1,0 +1,72 @@
+.flufftxt {
+  font-family: "Inter", sans-serif;
+  padding: 100px 12px;
+}
+
+.flufftxt img{
+  width: 100%;
+}
+
+.flufftxtWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flufftxtCPU {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 100px;
+}
+
+.flufftxtBat {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 60px;
+}
+
+.flufftxtTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.flufftxtTxt h2 {
+  max-width: 25ch;
+  font-size: 30px;
+}
+
+.flufftxtTxt p {
+  max-width: 58ch;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.flufftxtBtn {
+  padding-top: 50px;
+  text-align: center;
+}
+.flufftxtBtn a{
+    padding: 10px 16px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: ease-in-out 0.2s;
+}
+
+.flufftxtBtn a:hover{
+    color: black;
+    background: white;
+}
+
+@media(max-width:968px){
+  .flufftxtCPU{
+    flex-direction: column-reverse;
+  }
+
+  .flufftxtBat{
+    flex-direction: column;
+  }
+}

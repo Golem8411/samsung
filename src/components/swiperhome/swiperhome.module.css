@@ -1,0 +1,157 @@
+.swiperhome {
+  background: black;
+  font-family: "Inter", sans-serif;
+  padding: 0 12px;
+}
+
+.swiperhome img{
+  width: 100%;
+}
+
+.swiperhomeWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.carouselSlider {
+  max-width: 1440px;
+  max-height: 640px;
+  overflow: hidden;
+  position: relative;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.sliderInner {
+  display: inline-block;
+  position: absolute;
+}
+
+.sliderInner img {
+  position: relative;
+}
+
+.sliderTxt,
+.sliderTxt2,
+.sliderTxt3 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  bottom: 33%;
+  left: 10%;
+  gap: 24px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sliderTxt2 {
+  flex-direction: column;
+}
+
+.sliderTxt3 {
+  bottom: 40%;
+  left: 58%;
+}
+
+.sliderTxt .sliderS {
+  color: white;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.sliderTxt .sliderS:hover {
+  color: black;
+  background-color: white;
+}
+
+.sliderTxt .sliderC {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+.sliderTxt .sliderC:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.sliderTxt2 p {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.aConteiner {
+  display: flex;
+  gap: 24px;
+}
+
+.sliderTxt2 .sliderS,
+.sliderTxt3 .sliderS {
+  color: black;
+  padding: 8px 12px;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.sliderTxt2 .sliderS:hover,
+.sliderTxt3 .sliderS:hover {
+  color: white;
+  background-color: black;
+}
+
+.sliderTxt2 .sliderC,
+.sliderTxt3 .sliderC {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.sliderTxt2 .sliderC:hover,
+.sliderTxt3 .sliderC:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+@media (max-width: 1024px) {
+  .sliderTxt,
+  .sliderTxt2 {
+    bottom: 20%;
+    left: 8%;
+  }
+
+  .sliderTxt3{
+    bottom: 35%;
+    left: 55%;
+  }
+
+  .sliderTxt2 .sliderS,
+  .sliderTxt3 .sliderS,
+  .sliderTxt2 .sliderC,
+  .sliderTxt3 .sliderC,
+  .sliderTxt .sliderC,
+  .sliderTxt .sliderS {
+    font-size: 12px;
+  }
+
+  .sliderTxt2 p {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 768px){
+  .sliderTxt2 p{
+    font-size: 34px;
+  }
+}

@@ -1,0 +1,163 @@
+.Produto3{
+  padding: 0 12px 100px;
+  background-color: rgb(250, 250, 251);
+}
+.WrapperProduto3 {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 84px;
+    gap: 32px;
+  }
+
+.imgProduto3 img {
+    width: 300px;
+    height: 314px;
+    position: relative;
+}
+
+.ContentProduto3 h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.ContentProduto3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Buybtn{
+  display: flex;
+  justify-content: center;
+}
+
+.PrecoVistaNormal {
+    color: black;
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.PrecoVistaNormal span {
+    font-size: 14px;
+    font-weight: 400;  
+}
+
+.ContentProduto3 h3 {
+ color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ContentProduto3 li {
+  list-style: disc;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 70ch;
+}
+
+.PrecoCelularNormal {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 15px;
+}
+
+.PrecoCelularNormal h4 {
+    color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.PrecoCelularNormal .Parcela3 {
+    color: black;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.PrecoFrete3 {
+    color: black;
+}
+
+.PrecoFrete3 span {
+    color: black;
+    font-weight: bold;
+}
+
+.Frete3 {
+    color: #006bea;
+    font-size: 13px;
+    font-weight: 700;
+    height: 100%;
+}
+
+.Estoque3 {
+  color: green;
+  font-weight: bolder;
+}
+
+
+.imgCartao3 {
+    max-width: 45px;
+    border: 2.65px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+}
+
+.Master {
+    padding-right: 15px;
+}
+
+
+.Elo {
+    border: 2.65px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.Paga {
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+  }
+
+  
+.Numero3 {
+    color: #bcbcbc;
+  }
+  
+  .PagaCartao3 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #bcbcbc;
+  }
+  
+  .LastText3 .Numero3 {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+ @media (max-width: 1024px) {
+    .WrapperProduto3 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .ContentProduto3 {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .ContentProduto3 li {
+      max-width: 45ch;
+    }
+    .ContentProduto3 h2 {
+      max-width: 22ch;
+    }
+  }

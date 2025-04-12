@@ -1,0 +1,168 @@
+.sell {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 100px;
+  padding: 0 12px 80px;
+}
+
+.sellWrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.sellRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.sellCard {
+  position: relative;
+  overflow: hidden;
+  z-index: 9999;
+  width: 316px;
+  border-radius: 40px;
+}
+
+.sellCard a{
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+.sellCard a:hover {
+  opacity: 60%;
+}
+
+.sellCardTxt1 h2 {
+  padding-bottom: 24px;
+}
+
+.sellCardTxt1 {
+  background: rgb(153, 174, 241);
+  padding: 33px 34px 84px;
+}
+
+.sellCardImg img {
+  position: absolute;
+}
+
+.sellCardTxt2 {
+  position: relative;
+  z-index: 3;
+  padding: 33px 34px 2px;
+  background: rgb(98, 99, 125);
+}
+
+.sellCardTxt2 h2 {
+  padding-bottom: 24px;
+}
+
+.sellCard2 {
+  position: relative;
+  overflow: hidden;
+  z-index: 9999;
+  width: 316px;
+  border-radius: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    #302f38,
+    #3b3740,
+    #464048,
+    #514850,
+    #5c5158
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sellCardTxt3 {
+  padding: 0px 0px 0px;
+  max-width: 27ch;
+  min-height: 200px;
+}
+
+.sellCardImg3 {
+  margin-top: 57px;
+  width: 134px;
+  height: 134px;
+}
+
+.sellLife {
+  display: flex;
+  background: linear-gradient(to right,#000 30%,rgba(0,0,0,0) 70%);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.sellLife::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000 45%, rgba(0, 0, 0, 0) 75%);
+}
+
+.sellLifeTxt {
+  width: 420px;
+  min-height: 220px;
+  padding: 60px 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.sellLifeImg {
+  position: absolute;
+  width: 757px;
+  box-sizing: border-box;
+  right: 0;
+  left: auto;
+}
+
+.sellLifeTxt h2{
+    padding-bottom: 24px;
+}
+
+.sellLife a{
+    max-width: 15ch;
+    text-align: center;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.sellLife a:hover{
+    opacity: 60%;
+}
+
+@media(max-width:1024px){
+  .sellRow{
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .sellCardTxt3{
+    display: flex;
+    align-items: center;
+  }
+  .sellCardImg3{
+    margin: 40px 0 80px 0;
+  }
+
+}

@@ -1,0 +1,157 @@
+.GalaxyZFlip{
+  background-color: rgb(250, 250, 251);
+  padding: 0 12px 100px;
+}
+.WrapperZflip {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 84px;
+  gap: 32px;
+}
+
+.imgZflip img {
+  width: 300px;
+  height: 314px;
+  position: relative;
+}
+
+.ContentZflip {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ContentZflip h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+
+.Buybtn{
+  display: flex;
+  justify-content: center;
+}
+
+.PrecoFvista {
+  color: black;
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.PrecoFvista span {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ContentZflip h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.ContentZflip li {
+  color: black;
+  list-style:disc;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 45ch;
+}
+
+.ZFlip {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 15px;
+}
+
+.ZFlip h4 {
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.ParcelaZFlip {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.FreteZFlip span {
+  color: black;
+  font-weight: bold;
+}
+
+.FreteZFlip {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.FreteZFlip6 {
+  color: #006bea;
+  font-size: 13px;
+  font-weight: 700;
+  height: 100%;
+}
+
+.EstoqueZFlip {
+  color: green;
+  font-weight: bolder;
+}
+
+.imgCartaoZFlip {
+  max-width: 45px;
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+}
+
+.Flip {
+    padding-right: 15px;
+}
+
+
+.EloFlip {
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.FinalZflip {
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+}
+
+.PagaZflip,
+.FinalNumberZFlip {
+  color: #bcbcbc;
+}
+
+@media (max-width: 1024px) {
+    .WrapperZflip {
+      flex-direction: column;
+      align-items: center;
+    }
+    .ContentZflip {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .ContentZflip li {
+      max-width: 45ch;
+    }
+    .ContentZflip h2 {
+      max-width: 22ch;
+    }
+  }
+

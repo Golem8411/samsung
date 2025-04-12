@@ -1,0 +1,90 @@
+.Footer {
+  background: #ffff;
+  font-family: "Inter", sans-serif;
+}
+
+.Footer a{
+ color: black;
+}
+.Footer a:hover{
+  opacity: 60%;
+}
+
+.wrapperFooter {
+  border-top: 1px solid #828282;
+}
+
+.contentFooter {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 18px;
+  font-weight: 100;
+  padding:20px 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentFooter nav{
+  display: block;
+}
+
+.contentFooter p {
+  max-width: 50ch;
+  color: #828282;
+}
+
+.Copy {
+  border-top: 1px solid #828282;
+  padding: 18px 12px;
+
+}
+.CopyWrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Copy p {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.imgCopy {
+  display: flex;
+  gap: 16px;
+}
+
+
+.ulFooter{
+    color: #828282;
+    
+}
+
+.liTitle{
+  padding-bottom: 16px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.liProduct{
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+
+@media(max-width:1280px){
+  .contentFooter{
+    justify-content: space-around;
+  }
+  .contentFooter p{
+    max-width: 35ch;
+  }
+}
+
+
+

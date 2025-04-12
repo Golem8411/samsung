@@ -1,0 +1,172 @@
+.Produto{
+  padding: 0 12px 100px;
+  background-color: rgb(250, 250, 251);
+}
+
+.AnuncioS25 {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+.WrapperProduto {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 84px;
+    gap: 32px;
+  }
+
+.imgProduto img {
+    width: 300px;
+    height: 314px;
+    position: relative;
+}
+
+.ContentProduto h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.ContentProduto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Buybtn{
+  display: flex;
+  justify-content: center;
+}
+
+.PrecoVista {
+    color: black;
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.PrecoVista span {
+    font-size: 14px;
+    font-weight: 400;  
+}
+
+.ContentProduto h3 {
+ color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ContentProduto li {
+  list-style: disc;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.PrecoCelular {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 15px;
+}
+
+.PrecoCelular h4 {
+    color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.PrecoCelular .Parcela {
+    color: black;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.PrecoFrete {
+    color: black;
+}
+
+.PrecoFrete span {
+    color: black;
+    font-weight: bold;
+}
+
+.Frete {
+    color: #006bea;
+    font-size: 13px;
+    font-weight: 700;
+    height: 100%;
+}
+
+.Estoque25Plus {
+  color: green;
+  font-weight: bolder;
+}
+
+
+.imgCartao {
+  max-width: 45px;
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+}
+
+.Plus {
+  padding-right: 15px;
+}
+
+
+.EloPlus {
+  border: 2.65px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.LastText {
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .PagaCartao,
+  .Numero {
+    color: #bcbcbc;
+  }
+  
+  .PagaCartao {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .LastText .Numero {
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  @media (max-width: 1024px) {
+    .WrapperProduto {
+      flex-direction: column;
+      align-items: center;
+    }
+    .ContentProduto {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .ContentProduto li {
+      max-width: 45ch;
+    }
+    .ContentProduto h2 {
+      max-width: 25ch;
+    }
+  }

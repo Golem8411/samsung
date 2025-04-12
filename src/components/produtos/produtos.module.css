@@ -1,0 +1,90 @@
+.produtos {
+  font-family: "Inter", sans-serif;
+}
+
+.produtos img{
+  width: 100%;
+}
+.produtosWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 12px 80px 12px;
+}
+.produtosTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(94, 94, 94, 0.753);
+  padding: 8px 12px;
+}
+
+.produtosTitle a{
+    padding: 8px 16px;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.2s;
+}
+
+.produtosTitle a:hover{
+    color:black;
+    background: white;
+}
+
+.produtosRow {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.produtosCard{
+  padding: 16px 16px;
+  border: 1px solid rgba(94, 94, 94, 0.753);
+  border-radius: 20px;
+  max-width: 340px;
+  max-height: 440px;
+}
+
+.produtosName{
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.produtosBuy{
+    padding-top: 10px;
+    text-align: end;
+}
+
+.produtosBuy a{
+    padding: 8px 16px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+.produtosBuy a:hover{
+    color: white;
+    background-color: black;
+}
+
+@media(max-width:1280px){
+  .produtosRow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 32px;
+  }
+}
+
+
+@media(max-width:670px){
+  .produtosRow{
+    grid-template-columns:1fr;
+    gap: 32px;
+  }
+}

@@ -1,0 +1,14 @@
+.WrapperButtonS24 a {
+    color: #fff;
+    background-color:blue;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+.WrapperButtonS24 a:hover {
+    background-color: #fff;
+    color: blue;
+    cursor: pointer;
+}

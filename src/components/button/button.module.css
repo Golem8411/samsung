@@ -1,0 +1,14 @@
+.WrapperButton a {
+    color: #fff;
+    background-color:blue;
+    padding: 6px 28px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.WrapperButton a:hover{
+    background-color:#fff;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.hero {
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  padding: 0 12px;
+}
+
+.hero img{
+  width: 100%;
+}
+.heroWrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.heroContent {
+  position: relative;
+  display: inline-block;
+}
+
+.heroImgText p {
+  position: absolute;
+  top: 45%;
+  right: 55%;
+  background: linear-gradient(-39deg, #0e9ff9 51%, #64e9e3 76%, #9ffac7 81%);
+  background-clip: text;
+  color: transparent;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.heroImgText a {
+  position: absolute;
+  top: 58%;
+  right: 70%;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 25px;
+  transition: ease-in-out 0.2s;
+  font-weight: 000;
+}
+
+.heroImgText a:hover {
+  opacity: 60%;
+}
+
+.heroCamera {
+  max-width: 1024px;
+  margin: 100px auto 0 auto;
+}
+
+.heroCameraContent p {
+  padding: 0 12px 8px 12px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+@media(max-width:1280px){
+  .heroImgText p{
+    font-size: 40px;
+  }
+}
+@media (max-width: 1085px) {
+  .heroImgText p {
+    font-size: 38px;
+  }
+ 
+}
+
+@media (max-width: 1024px) {
+  .heroImgText p {
+    font-size: 27px;
+  }
+  .heroImgText a {
+    font-size: 12px;
+    top: 60%;
+    right: 65%;
+  }
+}
+
+@media (max-width: 600px){
+    .heroImgText p{
+      font-size: 24px;
+    }
+}
