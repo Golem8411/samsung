@@ -1,6 +1,6 @@
 import styles from "../galaxyS24Plus/galaxyS24Plus.module.css";
 import GalaxyS24P from "../../assets/img/samsung-laranja.png";
-// import MastercardP from "../../assets/img/mastercard.svg";
+import MastercardP from "../../assets/img/othercard.svg";
 import Elo24P from "../../assets/img/cartaoElo.svg";
 import ButtonGS24Plus from "../button/button";
 

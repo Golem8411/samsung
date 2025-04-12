@@ -1,6 +1,6 @@
 import styles from "../galaxyZfold/zFold.module.css";
 import GalaxyZFold from "../../assets/img/samsung-prata.png";
-// import MasterZfold from "../../assets/img/mastercard.svg";
+import MasterZfold from "../../assets/img/othercard.svg";
 import EloZFold from "../../assets/img/cartaoElo.svg";
 import ButtonZFold from "../button/button";
 
@@ -44,7 +44,7 @@ const Zfolder6 = () => {
           </div>
 
           <div className={styles.imgCartaoZFold}>
-            {/* <img className={styles.Fold} src={MasterZfold} alt="Master Z" /> */}
+            <img className={styles.Fold} src={MasterZfold} alt="Master Z" />
             <img className={styles.EloFold} src={EloZFold} alt="Elo Z" />
           </div>
           <div className={styles.FinalZfold}>

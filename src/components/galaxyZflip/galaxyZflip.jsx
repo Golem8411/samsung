@@ -1,6 +1,6 @@
 import styles from "../galaxyZflip/galaxyZflip.module.css";
 import GalaxyZFlip from "../../assets/img/samsung-flip.png";
-// import MasterFlip from "../../assets/img/mastercard.svg";
+import MasterFlip from "../../assets/img/othercard.svg";
 import EloFlip from "../../assets/img/cartaoElo.svg";
 import ButtonFlip from "../button/button";
 
@@ -50,7 +50,7 @@ const Zflip6 = () => {
           </div>
 
           <div className={styles.imgCartaoZFlip}>
-            {/* <img className={styles.Flip} src={MasterFlip} alt="Master Flip" /> */}
+            <img className={styles.Flip} src={MasterFlip} alt="Master Flip" />
             <img className={styles.EloFlip} src={EloFlip} alt="Elo Flip" />
           </div>
 
