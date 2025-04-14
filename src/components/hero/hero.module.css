@@ -85,3 +85,9 @@
       font-size: 24px;
     }
 }
+
+@media (max-width: 500px){
+  .heroImgText a{
+    top: 80%;
+  }
+}
